@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML</p>
+    <p>Crack com Mussilon</p><audio src="medias/Matuê - Crack com Mussilon(mp3_160K).mp3" controls preload="metadata" loop></audio><br><br><p>Isso é sério</p>
+    <audio src="medias/Matuê - Isso é Sério ft. Brandão85(mp3_160K).mp3" controls preload="metadata" loop></audio>
+
+    <h2>Links para download das músicas</h2>
+    <p><a href="medias/Matuê - Isso é Sério ft. Brandão85(mp3_160K).mp3" download="Isso é Sério">Isso é sério</a></p>
+    <p><a href="medias/Matuê - Crack com Mussilon(mp3_160K).mp3" kndownload="Crack com Mussilon">Crack com Mussilon</a></p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é # (Só pode ter um elemento)
+    em HTML é class = em CSS é . (pode ter vários)
+*/
+
+/*
+Só se pode colocar id uma única vez no site, mas podemos usar class.
+
+Além de que é bom classificar a class pelo objetivo não pelo signigficado.
+
+Com a tag <span>, podemos colocar class dentro dela e mudar o que esta dentro da tag span. Fazendo com que mudamos o item selecionado.
+
+Também podemos botar duas classes em apenas um elemento, basta colocar um espaço entre as classes solicitadas
+
+*/
+body {
+    background-color: rgb(44, 188, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 77, 112);
+}
+
+#principal {
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    color: rgb(0, 13, 194);
+}
+
+.basico {
+    color: rgb(19, 116, 19);
+}
+
+.intermediario {
+    color: rgb(168, 168, 0);
+}
+
+.avançado {
+    color: rgb(228, 8, 8);
+}

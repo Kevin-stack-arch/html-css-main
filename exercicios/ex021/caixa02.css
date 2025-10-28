@@ -1,0 +1,60 @@
+body {
+    background-color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px 0;
+    margin: 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+}
+
+nav {
+    background-color: rgb(66, 66, 66);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px black;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+article {
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+article > aside {
+    background-color: rgb(122, 120, 120);
+    border-radius: 2px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+footer > p {
+    margin: 0px;
+}

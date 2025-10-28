@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'love';
+    src: url(love\ story\ ttf.ttf) format(truetype);
+}
+
+/*
+    Tipos de format ()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typograthy)
+    - svg
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 85, 85);
+}
+
+h1 {
+    font-family: 'love', serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: love;
+    font-size: 2em;
+    text-align: end;
+}
+
+.bmk {
+    text-align: left;
+}
+
+#bmkk {
+    text-align: end;
+}
